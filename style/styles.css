@@ -1,0 +1,35 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  background-image: url("../images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%) ;
+}
+
+.container{
+  margin: 100px;
+}
+
+.row{
+  display: inline-flex;
+}
+
+
+.intro-card {
+  color: white;
+  max-width: 40%;
+  padding: 150px 30px 150px 30px;
+  text-align: left;
+}
+
+.signup-card{
+  max-width: 40%;
+}
+
+.intro-heading{
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+.intro-content{
+  font-size: 16px;
+}
