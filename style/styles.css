@@ -15,13 +15,13 @@ body{
 
 .intro-card {
   color: white;
-  max-width: 40%;
-  padding: 150px 30px 150px 30px;
+  max-width: 42%;
+  padding: 150px 45px;
   text-align: left;
 }
 
 .signup-card{
-  max-width: 40%;
+  max-width: 42%;
 }
 
 .intro-heading{
@@ -32,4 +32,68 @@ body{
 
 .intro-content{
   font-size: 16px;
+}
+
+.promo-button{
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: hsl(248, 32%, 49%);
+  box-shadow: 0 7px rgba(0, 0, 0, .15) ;
+  color: white;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  width: 100%;
+  padding: 15px 105px;
+  margin: 20px auto;
+}
+
+.dim-text{
+  color: hsl(246, 25%, 77%);
+  font-weight: lighter;
+}
+
+.signup-form{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 7px rgba(0, 0, 0, .15) ;
+  padding: 40px;
+}
+
+.input-box{
+  border-radius: 5px;
+  border-style: solid;
+  border-color: grey;
+  color: grey;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin: 10px auto;
+  padding: 15px 200px 15px 42px;
+}
+
+.claim-button{
+  background-color: hsl(154, 59%, 51%);
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 10px auto;
+  padding: 15px 120px 15px 120px;
+  text-align: center;
+}
+
+
+
+.terms{
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  color: grey;
 }
