@@ -21,7 +21,7 @@ body{
 }
 
 .signup-card{
-  max-width: 42%;
+  max-width: 50%;
 }
 
 .intro-heading{
@@ -59,7 +59,7 @@ body{
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 7px rgba(0, 0, 0, .15) ;
-  padding: 40px;
+  padding: 50px;
 }
 
 .input-box{
@@ -68,12 +68,12 @@ body{
   border-color: LightGrey;
   border-width: 1px;
   color: hsl(249, 10%, 26%);
-  display: inline-block;
+  /* display: block; */
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   margin: 10px auto;
-  padding: 15px 200px 15px 42px;
+  padding: 15px 185px 15px 42px;
 }
 
 .claim-button{
@@ -97,11 +97,37 @@ body{
   opacity: 0.9;
 }
 
-
-
 .terms{
   font-size: 12px;
   font-weight: 500;
   text-align: center;
   color: grey;
+}
+
+@media (max-width:375px) {
+  .container{
+    margin: 50px;
+  }
+
+  body{
+    background-image: url("../images/bg-intro-mobile.png");
+  }
+
+  .row{
+    display: inline-block;
+  }
+
+  .intro-card {
+    max-width: 90%;
+    padding: 50px 45px;
+    text-align: center;
+  }
+
+  .signup-card{
+    max-width: 90%;
+  }
+
+  .promo-button{
+    padding: 15px 150px 15px 150px;
+  }
 }
