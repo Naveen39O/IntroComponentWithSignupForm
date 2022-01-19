@@ -45,15 +45,19 @@
         <button class="promo-button" name="button">Try it free 7 days <span class="dim-text">then $20/mo. thereafter</span> </button>
 
         <div class="">
-          <form class="signup-form" action="index.html" method="post">
+          <form class="signup-form" action="index.html" method="post" novalidate>
             <input class="input-box" type="text" name="fName" value="" placeholder="First Name" autocomplete="off" required><br>
+            <span class = "error-fname"></span>
             <input class="input-box" type="text" name="lName" value="" placeholder="Last Name" required><br>
+            <span class = "error-lname"></span>
             <input class="input-box" type="email" name="eMail" value="" placeholder="Email Address" required><br>
+            <span class = "error-email"></span>
             <input class="input-box" type="password" name="pswd" value="" placeholder="Password" required><br>
+            <span class = "error-pwd"></span>
 
             <button class="claim-button" type="submit" name="button">CLAIM YOUR FREE TRAIL</button>
 
-            <p class="terms">By clicking the button, you are agreeing to our <span style="color:Red">Terms and Services</span></p>
+            <p class="terms">By clicking the button, you are agreeing to our <span class="terms-highlight">Terms and Services</span></p>
           </form>
 
         </div>
@@ -66,9 +70,12 @@
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Naveen Ongole</a>.
+      Coded by <a href="https://github.com/Naveen39O/IntroComponentWithSignupForm">Naveen Ongole</a>.
     </p>
   </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>
