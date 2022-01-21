@@ -191,3 +191,9 @@ body{
 .error-span{
   display: inline-block;
 }
+
+.error-img{
+  background-image: url("../images/icon-error.svg");
+  background-repeat: no-repeat;
+  background-position: 95% 50% ;
+}
