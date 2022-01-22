@@ -47,13 +47,13 @@
         <div class="">
           <form class="signup-form" action="index.html" method="post" novalidate>
             <input src=""class="input-box" type="text" name="fName" value="" placeholder="First Name" autocomplete="off" required><br>
-            <span class = "error-fname"></span>
-            <input class="input-box" type="text" name="lName" value="" placeholder="Last Name" required><br>
-            <span class = "error-lname"></span>
-            <input class="input-box" type="email" name="eMail" value="" placeholder="Email Address" required><br>
-            <span class = "error-email"></span>
-            <input class="input-box" type="password" name="pswd" value="" placeholder="Password" required><br>
-            <span class = "error-pwd"></span>
+            <span class = "error error-fname"></span>
+            <input class="input-box" type="text" name="lName" value="" placeholder="Last Name" autocomplete="off"required><br>
+            <span class = "error error-lname"></span>
+            <input class="input-box" type="email" name="eMail" value="" placeholder="Email Address" required minlength="8"><br>
+            <span class = "error error-email"></span>
+            <input class="input-box" type="password" name="pswd" value="" placeholder="Password" required minlength="8"><br>
+            <span class = "error error-pwd"></span>
 
             <button class="claim-button" type="submit" name="button">CLAIM YOUR FREE TRAIL</button>
 

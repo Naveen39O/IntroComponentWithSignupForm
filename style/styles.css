@@ -81,6 +81,10 @@ body{
   padding: 15px;
 }
 
+.input-box:hover{
+  opacity: 0.9;
+}
+
 .claim-button{
   background-color: hsl(154, 59%, 51%);
   border-radius: 5px;
@@ -180,6 +184,12 @@ body{
   display: inline-block;
 }
 
+.error-active::placeholder{
+  color: hsl(0, 100%, 74%);
+  opacity: 0.9;
+  font-size: 14px;
+}
+
 .error{
   color: hsl(0, 100%, 74%);
   font-style: italic;
@@ -189,7 +199,9 @@ body{
 }
 
 .error-span{
+  box-sizing: border-box;
   display: inline-block;
+  width: 96%;
 }
 
 .error-img{
